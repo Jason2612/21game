@@ -51,7 +51,10 @@ while True:
                     break
                 else:
                     player_choice = int(input("Nhap gia tri 1, 2 hoac 3: "))
-    if input("Nhap end de ket thuc, de choi tiep nhap so: ") == "end":
+    play_again = input("De choi lay hay an y/ De ket thuc an n: ")
+    if play_again == "y":
+        continue
+    elif play_again == "n":
         break
 
    
